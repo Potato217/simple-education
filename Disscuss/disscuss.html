@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+	<link rel="stylesheet" href="/Disscuss/disscuss.css" />
+
+	<title>Simple Education Disscuss</title>
+</head>
+
+<body>
+	<!-- nav-bar -->
+	<div class="nar-bar">
+		<ion-icon id="close" name="close-circle-outline"></ion-icon>
+		<div class="nar-bar__list animate__animated">
+			<a href="#timetable">Thời khóa biểu</a>
+		</div>
+		<div class="nar-bar__list animate__animated">
+			<a href="#activitieslog">Nhật kí</a>
+		</div>
+		<div class="nar-bar__list animate__animated">
+			<a href="#courses">Môn học</a>
+		</div>
+		<div class="nar-bar__list animate__animated">
+			<a href="#discoss">Diễn đàn</a>
+		</div>
+	</div>
+
+	<!-- header -->
+	<div class="header">
+		<div class="header__account">
+			<img src="https://picsum.photos/200" alt="header_account_icon">
+		</div>
+		<div class="header__logo">
+			<img src="../img/LOGO.png" alt="logo" />
+		</div>
+		<div class="header__nav-bar">
+			<div class="header__nav-bar__icon animate__animated">
+				<ion-icon id="open-menu" name="menu-outline"></ion-icon>
+				<ion-icon id='log-out' name="log-out-outline"></ion-icon>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<div>
+		
+	</div>
+
+	<!-- footer -->
+	<div class="footer">
+		<a href="#" class="footer__logo"><img src="../img/LOGO.png" alt="logo"></img></a>
+		<h4>“Stay hungry, stay foolish.”</h4>
+		<div class="footer__icon">
+			<a href="https://www.facebook.com/">
+				<ion-icon name="logo-facebook"></ion-icon>
+			</a>
+			<a href="https://www.youtube.com/">
+				<ion-icon name="logo-youtube"></ion-icon>
+			</a>
+			<a href="https://www.instagram.com/">
+				<ion-icon name="logo-instagram"></ion-icon>
+			</a>
+			<a href="https://mail.google.com/mail/u/0/#inbox">
+				<ion-icon name="mail-outline"></ion-icon>
+			</a>
+		</div>
+		<div class="footer__made-by">
+			<p>made with</p>
+			<ion-icon name="qr-code-outline"></ion-icon>
+			<ion-icon name="female-outline"></ion-icon>
+		</div>
+		<div class="blabla">
+			@2020 simplegirl.com
+		</div>
+	</div>
+	
+	<script src="/Disscuss/disscuss.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			var elems = document.querySelectorAll('.carousel');
+			var instances = M.Carousel.init(elems);
+		});
+	</script>
+	</body>
+	
+	</html>

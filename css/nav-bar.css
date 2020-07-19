@@ -1,0 +1,51 @@
+.nar-bar {
+	position: relative;
+	position: fixed;
+	right: 0;
+	transform: translateX(300px);
+	z-index: 1001;
+	width: 300px;
+	height: 100vh;
+	background-image: linear-gradient(rgb(131, 131, 55), rgb(238, 64, 93));
+	color: #fff;
+	transition: 300ms all ease-in-out;
+	border-left: solid 5px var(--main-color);
+}
+
+.nar-bar__img {
+	width: 110%;
+	height: auto;
+	margin: 0 auto;
+	display: block;
+}
+
+#close {
+	font-size: 40px;
+	margin: 20px 30px;
+	color: #fff;
+}
+
+#close:hover {
+	background-image: linear-gradient(rgba(233, 158, 158, 0.459), rgba(255, 255, 0, 0.541));
+	border-radius: 50%;
+}
+
+.nar-bar__list {
+	margin: 20px 30px;
+}
+
+.nar-bar__list a {
+	text-decoration: unset;
+	color: #fff;
+	font-size: 30px;
+	padding: 5px;
+}
+
+.nar-bar__list a:hover {
+	text-decoration: unset;
+	color: #fff;
+	font-size: 32px;
+	background-image: linear-gradient(rgba(233, 158, 158, 0.459), rgba(255, 255, 0, 0.541));
+	transition: 1s ease-in-out;
+	border-radius: 20px;
+}

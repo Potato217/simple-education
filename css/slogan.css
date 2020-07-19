@@ -1,0 +1,11 @@
+.carousel-item .white-text {
+	border-left: solid white 5px;
+	border-right: solid white 5px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+h6 {
+	width: 60%;
+	height: auto;
+}

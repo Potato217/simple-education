@@ -1,0 +1,67 @@
+/* Font content - Krub */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;1,400&family=Cardo:ital,wght@0,400;0,700;1,400&family=David+Libre:wght@400;500;700&family=Krub:ital,wght@0,400;0,500;1,500&display=swap');
+/* Font title - David Libre */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;1,400&family=Cardo:ital,wght@0,400;0,700;1,400&family=David+Libre:wght@400;500;700&display=swap');
+
+@import './css/activities-log.css';
+@import './css/courses.css';
+@import './css/footers.css';
+@import './css/header.css';
+@import './css/nav-bar.css';
+@import './css/slogan.css';
+@import './css/other.css';
+
+/* var(--main-color)  */
+:root {
+	--background-color: #000000;
+	--main-color: #eac502;
+	--button-color: #d4848f;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Krub;
+	color: #ffffff;
+	background-color: var(--background-color);
+}
+
+.heading {
+	text-align: center;
+	color: var(--main-color);
+	clear: both;
+	font-size: minmax(5px, 20px);
+	font-family: 'David Libre';
+	width: 90%;
+	margin: 0 auto;
+	max-width: 22em;
+	position: relative;
+	color: #fff;
+	background: #000;
+	background-clip: padding-box;
+	border: solid 5px transparent;
+	border-radius: 1em;
+	margin-top: 50p;
+}
+
+.heading:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	margin: -2px;
+	border-radius: inherit;
+	background: linear-gradient(to right, red, orange);
+}
+
+.heading h3 {
+	font-size: 30px;
+}
